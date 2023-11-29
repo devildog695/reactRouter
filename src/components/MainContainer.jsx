@@ -5,6 +5,7 @@ import Red from "./Red";
 import Yellow from "./Yellow";
 import Green from "./Green";
 import Home from "./Home";
+import Footer from "./Footer";
 
 function MainContainer() {
   return (
@@ -16,7 +17,7 @@ function MainContainer() {
         <Route path="/yellow" element={<Yellow />} />
         <Route path="/green" element={<Green />} />
       </Routes>
-      <footer />
+      <Footer />
     </div>
   );
 }

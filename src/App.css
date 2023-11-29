@@ -53,11 +53,13 @@ body > div {
   background-color: green;
 }
 
-#footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 10px;
+footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.home {
+  background-color: teal;
+}

@@ -3,20 +3,11 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer id="footer">
+    <footer style={{ backgroundColor: "gold" }}>
       <nav>
         <ul>
           <li>
-            <Link to="/blue">Blue</Link>
-          </li>
-          <li>
-            <Link to="/red">Red</Link>
-          </li>
-          <li>
-            <Link to="/green">Green</Link>
-          </li>
-          <li>
-            <Link to="/yellow">Yellow</Link>
+            <Link to="/">Home</Link>
           </li>
         </ul>
       </nav>
